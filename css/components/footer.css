@@ -1,0 +1,21 @@
+/* Footer design */
+.footer a:hover{
+  color: #c4f2cf;
+}
+
+.footer a{
+  font-size: 35px;
+  color: #FFFFFF;
+  margin-right: 25px;
+transition: all 0.3s ease;
+}
+
+.footer{
+  background-color: #0E2C37;
+  height: 80px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
