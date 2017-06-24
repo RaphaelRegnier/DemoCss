@@ -28,7 +28,29 @@
           <h1>Get Inspired</h1>
           <p>A breath of the wild in the forest.</p>
 
-          <div class = "flex">
+          <div class = "flex hide-on-small-only">
+            <div class = "flex-element">
+              <input type="date" placeholder = "Check-in date" class="datepicker">
+            </div>
+            <div class = "flex-element">
+              <input type="date" placeholder = "Check-out date" class="datepicker">
+            </div>
+            <div class = "flex-element button">
+              <select>
+                <option value="" disabled selected>Choose your option</option>
+                <option value="1">1 person</option>
+                <option value="2">2 persons</option>
+                <option value="3">3 persons</option>
+              </select>
+
+              <label>Number of person</label>
+            </div>
+          <div class = "flex-element" id = "button">
+            <a class="waves-effect waves-light btn color">Book now</a>
+            </div>
+          </div>
+
+          <div class = "hide-on-med-and-up">
             <div class = "flex-element">
               <input type="date" placeholder = "Check-in date" class="datepicker">
             </div>
